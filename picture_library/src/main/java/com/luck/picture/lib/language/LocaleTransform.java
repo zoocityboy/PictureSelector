@@ -40,9 +40,12 @@ public class LocaleTransform {
             case LanguageConfig.AR:
                 // 阿拉伯语
                 return new Locale("ar", "AE");
+            case LanguageConfig.CZECH:
+                // 阿拉伯语
+                return new Locale("cs");
             default:
                 // 简体中文
-                return Locale.CHINESE;
+                return Locale.ENGLISH;
         }
     }
 }

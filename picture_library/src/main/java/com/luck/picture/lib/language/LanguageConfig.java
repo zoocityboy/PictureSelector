@@ -57,4 +57,6 @@ public class LanguageConfig {
      * 阿拉伯语
      */
     public static final int AR = 10;
+
+    public static final int CZECH = 11;
 }
